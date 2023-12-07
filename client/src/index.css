@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Open+Sans:ital,wght@1,300&family=Playfair+Display:wght@700&family=Poppins:wght@300;400&family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: calc(100vh - 100px);
+  max-width: 100%;
+}
+/* 
+font-family: 'Lato', san s-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* //navbar css */
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures full height of the viewport */
+}
+
+/* Ensure the Main content area grows to occupy remaining space */
+main {
+  flex-grow: 1;
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0px 8px 6px -6px gray;
+  border-bottom: solid gray !important;
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: roboto, sans-serif;
+  letter-spacing: 2px;
+}
+
+.footer {
+  background: linear-gradient(#22092c, #22092c);
+  color: white;
+  width: 100%;
+}
+
+.usmaan {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: wheat;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.ev {
+  text-decoration: line-through;
+}
+
+.social {
+  font-weight: 900;
+  font-size: 30px !important;
+}
+
+/* Register */
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.product-link {
+  text-decoration: none;
+  color: black !important;
+}
+
+.background-image {
+  background: linear-gradient(
+    24deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(27, 15, 34, 1) 6%,
+    rgba(208, 120, 23, 1) 17%,
+    rgba(176, 32, 204, 1) 52%,
+    rgba(169, 28, 177, 0.9404433648459384) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.bg-header {
+  background: linear-gradient(
+    24deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(27, 15, 34, 1) 6%,
+    rgba(208, 120, 23, 1) 49%,
+    rgba(106, 18, 123, 1) 92%,
+    rgba(169, 28, 177, 0.9404433648459384) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.bg-footer {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    24deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(27, 15, 34, 1) 6%,
+    rgba(44, 179, 181, 1) 44%,
+    rgba(176, 32, 204, 1) 64%,
+    rgba(169, 28, 177, 0.9404433648459384) 100%
+  );
+}
+
+/* //Search */
+.search-card {
+  background-color: rgb(165, 36, 165);
+}
+
+.cate-card {
+  background: linear-gradient(
+    24deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(74, 173, 172, 1) 0%,
+    rgba(158, 158, 147, 1) 6%,
+    rgba(213, 177, 30, 1) 60%,
+    rgba(44, 179, 181, 1) 91%,
+    rgba(176, 32, 204, 1) 93%,
+    rgba(169, 28, 177, 0.9404433648459384) 100%
+  );
+}
+.cate-card:hover {
+  background: linear-gradient(
+    24deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(74, 173, 172, 1) 0%,
+
+    rgba(176, 32, 204, 1) 93%,
+    rgba(169, 28, 177, 0.9404433648459384) 100%
+  );
+}
